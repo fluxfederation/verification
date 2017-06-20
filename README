@@ -1,6 +1,6 @@
 This module provides a class-level method for specifying that certain
 actions are guarded against being called without certain prerequisites
-being met. This is essentially a special kind of before_filter.
+being met. This is essentially a special kind of before_action.
 
 An action may be guarded against being invoked without certain request
 parameters being set, or without certain session values existing.
